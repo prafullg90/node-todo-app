@@ -30,7 +30,7 @@ MongoClient.connect(url, (err, client)=>{
 
     const db = client.db('Users');
     db.collection('Users').insertOne({
-        name : 'Manisha Gaikwad',
+        name : 'Padmraj Gaikwad',
         age : 28,
         location : 'Pune'
        
